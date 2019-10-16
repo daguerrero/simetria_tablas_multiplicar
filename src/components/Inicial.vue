@@ -1,7 +1,7 @@
 <template>
   <div class="inicial">
       <h1>Las simetrias ocultas de la tablas de multiplcar</h1>
-      <button>Visita el artículo</button>
+      <a class="btn" href="https://daguerrero.com/las-simetrias-ocultas-de-las-tablas-de-multiplicar-con-vuejs/">Visita el articulo</a>
   </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
     height: 100;
 }
 
-button {
+.btn {
 	background:#7f8c8d;
 	color:#fff;
 	display:inline-block;
